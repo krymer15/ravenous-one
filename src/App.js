@@ -1,10 +1,11 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-import BusinesList from '../src/components/BusinessList';
-import SearchBar from '../src/components/SearchBar';
+import BusinessList from './components/BusinessList/BusinessList';
+import SearchBar from './components/SearchBar/SearchBar';
 
-class App extends React.Component() {
+class App extends React.Component {
   render () {
     return (
       <div className="App">
